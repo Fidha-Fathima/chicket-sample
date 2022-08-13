@@ -1,0 +1,284 @@
+body {
+    background-color: #e41e26;
+}
+
+.nav-link {
+    color: white;
+}
+
+/* .slider-section{
+    background-color: rgba(0,0,0,0);
+    background-size: cover;
+    background-position: center center;
+    width:100%;
+    height:100%; */
+/* } */
+.img-1 {
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    transition: all 0s ease 0s;
+    transition-property: all;
+    transition-duration: 0s;
+    transition-timing-function: ease;
+}
+
+.img-2 {
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    position: relative;
+    height: 92px;
+}
+
+@media screen and (max-width:768px) {
+    .navbar img {
+        height: 90px;
+    }
+
+    .navbar {
+
+        height: 52px;
+    }
+
+}
+
+.navbar img {
+    position: absolute;
+    z-index: 10;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    position: relative;
+}
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 50px;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 75%;
+        height: 100%;
+        background-color: rgb(124, 118, 118);
+        margin: 2rem 0 0 0;
+        z-index: 10;
+    }
+
+    .navbar-collapse.collapsing {
+        left: -75%;
+        transition: height 0s ease;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+        transition: left 300ms ease-in-out;
+    }
+
+    .navbar-toggler.collapsed~.navbar-collapse {
+        transition: left 500ms ease-in-out;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .justify-content-center {
+        justify-content: center !important;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar-collapse{
+        top:-34px;
+    }
+}
+
+.food {}
+
+.bread {
+    left: 5px;
+    top: 50px;
+}
+
+.burger {
+    right: 5px;
+    top: 100px;
+}
+
+.tea {
+    bottom: 5px;
+    left: 5px;
+}
+
+.beef {
+    bottom: 20px;
+    right: 5px;
+
+}
+
+.welcome {
+    width: 85%;
+    text-align: center;
+    z-index: 10px;
+}
+
+.welcome h2 {
+    line-height: normal;
+    margin: 0 0 16px 0;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+}
+
+.para {
+    padding-top: 75px;
+}
+
+.section-2 p {
+    text-align: justify;
+    color: #fff;
+
+}
+
+.section-2 .btn {
+
+    border-radius: 28px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 30px;
+    min-width: 195px;
+    background-color: rgb(95, 85, 85);
+
+}
+
+.slider-section .btn {
+    border-radius: 28px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 30px;
+    min-width: 195px;
+    border-color: #fff;
+}
+
+.Special-Offers {
+    background-color: black;
+}
+
+.heading2 {
+    text-align: center;
+    color: #fff;
+    padding-top: 40px;
+}
+
+.Special-Offers .row {
+    padding-bottom: 100px;
+}
+
+.Special-Offers img {
+    border-radius: 26px;
+}
+
+.heading-3 h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    padding-top: 40px;
+    margin-bottom: 4rem;
+    line-height: normal;
+    margin: 0 0 36px 0;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.card {
+    right: 10px;
+}
+
+.feature-sec {
+    display: flex;
+    justify-content: center
+}
+
+.features .dish {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.dishes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+
+}
+
+.dishes p {
+    margin: 20px 0 10px;
+    color: #fff;
+    font-size: 20px;
+    line-height: normal;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.footer .row {
+    margin-top: 8rem !important;
+    justify-content: center;
+    /* margin-bottom: 3rem!important; */
+}
+
+.footer-tail {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: #5e5e75;
+    font-size: 13px;
+    background: #12121d;
+    padding: 22px 0;
+}
+
+.text-muted {
+    color: #fff !important;
+
+}
+
+.mb-3 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.mb-3 h5 {
+    margin-bottom: 2rem;
+}
+
+.row {
+    display: flex;
+    justify-content: center
+}
